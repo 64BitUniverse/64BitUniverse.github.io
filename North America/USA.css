@@ -23,7 +23,7 @@
         }
 
 .main {
-    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-left: 210px; /* Same as the width of the sidenav */
 }
 
 @media screen and (max-height: 450px) {
