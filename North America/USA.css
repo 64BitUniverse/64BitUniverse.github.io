@@ -24,11 +24,13 @@
 
 .sidenavright {
     height: 100%;
-    width: 200px;
+    width: 400px;
     position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
+    color: white;
+    text-align: center;
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
@@ -48,7 +50,7 @@
 
 .main {
     margin-left: 210px; /* Same as the width of the sidenav */
-    margin-right: 210px;
+    margin-right: 410px;
 }
 
 @media screen and (max-height: 450px) {
@@ -69,4 +71,10 @@
         .sidenavright a {
             font-size: 18px;
         }
+}
+
+.line {
+    color: white;
+    /*margin-left: 1em;*/
+    /*margin-right: 1em;*/
 }
